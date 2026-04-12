@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  background: #f3f3f3;
+  color: #222;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2, p {
+  margin-top: 0;
+}
+
+.sub {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.button-group.vertical {
+  flex-direction: column;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #2d6cdf;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #666;
+}
+
+button.danger {
+  background: #c0392b;
+}
+
+.quiz-top {
+  margin-bottom: 12px;
+}
+
+.progress-label {
+  color: #555;
+  font-weight: bold;
+}
+
+.question-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 240px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.question-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 22px;
+  line-height: 1.9;
+  word-break: break-word;
+}
+
+.answer-area {
+  margin-top: 16px;
+}
+
+.answer-box {
+  padding: 16px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.answer-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.answer-term {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+.history-list {
+  margin-top: 16px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-left {
+  flex: 1;
+}
+
+.history-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.history-detail {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.history-count {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.empty-message {
+  color: #666;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .question-area {
+    min-height: 200px;
+    padding: 16px;
+  }
+
+  .question-label {
+    font-size: 18px;
+  }
+
+  .question-text {
+    font-size: 18px;
+  }
+
+  .answer-term {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 13px 14px;
+  }
+}

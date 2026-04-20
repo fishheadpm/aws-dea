@@ -1,8 +1,8 @@
 'use strict';
 
 const DATA_URL = './data.json';
-const STORAGE_KEY_PROGRESS = 'aws_term_progress_v1';
-const STORAGE_KEY_HISTORY = 'aws_term_history_v1';
+const STORAGE_KEY_PROGRESS = 'aws_term_progress_v2';
+const STORAGE_KEY_HISTORY = 'aws_term_history_v2';
 
 const titleScreen = document.getElementById('titleScreen');
 const quizScreen = document.getElementById('quizScreen');
@@ -12,6 +12,7 @@ const historyScreen = document.getElementById('historyScreen');
 const startFromBeginningButton = document.getElementById('startFromBeginningButton');
 const continueButton = document.getElementById('continueButton');
 const historyButton = document.getElementById('historyButton');
+const resetAllButton = document.getElementById('resetAllButton');
 
 const progressLabel = document.getElementById('progressLabel');
 const questionText = document.getElementById('questionText');
@@ -105,6 +106,16 @@ function saveProgress(progress) {
 
 function clearProgress() {
   localStorage.removeItem(STORAGE_KEY_PROGRESS);
+}
+
+function clearHistory() {
+  localStorage.removeItem(STORAGE_KEY_HISTORY);
+}
+
+function resetAllData() {
+  clearProgress();
+  clearHistory();
+  currentProgress = null;
 }
 
 function shuffle(array) {
@@ -284,6 +295,17 @@ continueButton.addEventListener('click', continueFromSaved);
 historyButton.addEventListener('click', () => {
   renderHistory();
   showHistoryScreen();
+});
+
+resetAllButton.addEventListener('click', () => {
+  const ok = confirm('進行状況と間違えた履歴をすべて削除します。よろしいですか？');
+  if (!ok) {
+    return;
+  }
+
+  resetAllData();
+  alert('テスト履歴をリセットしました。');
+  showTitleScreen();
 });
 
 showAnswerButton.addEventListener('click', showAnswer);

@@ -1,172 +1,207 @@
 [
   {
     "id": "a001",
-    "term": "AWS Database Migration Service",
-    "description": "既存データ＋将来変更（CDC）を継続レプリケーションできるマネージド移行サービス"
-  },
-  {
-    "id": "a002",
     "term": "Amazon Managed Service for Apache Flink",
     "description": "ストリーミングデータをリアルタイム処理するフルマネージドサービス（Kinesisと組み合わせ）"
   },
   {
-    "id": "a003",
+    "id": "a002",
     "term": "Aurora Zero-ETL統合",
     "description": "データ変換処理なしでトランザクションDBから分析基盤へ自動同期する機能"
   },
   {
-    "id": "a004",
-    "term": "Amazon AppFlow",
-    "description": "SaaSとAWS間のデータをノーコードで連携・転送するサービス"
-  },
-  {
-    "id": "a005",
+    "id": "a003",
     "term": "Amazon DataZone",
     "description": "組織内のデータカタログ・共有・ガバナンスを一元管理するサービス"
   },
   {
-    "id": "a006",
+    "id": "a004",
     "term": "AWS Glue Sparkシャッフルマネージャー",
     "description": "分散処理時のデータ再配置（シャッフル）を効率化しパフォーマンスを改善する機能"
   },
   {
-    "id": "a007",
+    "id": "a005",
     "term": "Amazon Redshiftプロビジョンドクラスター",
     "description": "ノード構成で動く分析専用DWH（高速集計・BI用途）"
   },
   {
-    "id": "a008",
+    "id": "a006",
     "term": "AWS Glue DataBrew",
     "description": "ノーコードでデータのクレンジング・変換を行うビジュアルツール"
   },
   {
-    "id": "a009",
+    "id": "a007",
     "term": "AWS Lake Formation FindMatches変換",
     "description": "重複・類似レコードを機械学習でマッチングする機能"
   },
   {
-    "id": "a010",
-    "term": "Fluent Bit",
-    "description": "軽量ログ収集・転送ツール（ストリーミング基盤や検索基盤へ送信）"
-  },
-  {
-    "id": "a011",
+    "id": "a008",
     "term": "Amazon Redshift ML",
     "description": "SQLで機械学習モデルを作成・推論できる機能"
   },
   {
-    "id": "a012",
+    "id": "a009",
     "term": "Amazon Managed Workflows for Apache Airflow",
     "description": "複数の処理の順序や依存関係を定義しスケジュール実行を自動化するマネージドサービス"
   },
   {
-    "id": "a013",
+    "id": "a010",
     "term": "Kinesis Producer Library",
     "description": "ストリーミング基盤への高効率データ送信を行うクライアントライブラリ（バッチ送信・再試行最適化）"
   },
   {
-    "id": "a014",
+    "id": "a011",
     "term": "Amazon S3 Storage Lens",
     "description": "S3の使用状況・アクセス傾向を可視化し最適化する分析機能"
   },
   {
-    "id": "a015",
+    "id": "a012",
     "term": "Apache Hive",
     "description": "分散ストレージ上のデータをSQLで扱えるようにする仕組み"
   },
   {
-    "id": "a016",
+    "id": "a013",
     "term": "AWS Schema Conversion Tool",
     "description": "異種データベース間でスキーマを変換するツール"
   },
   {
-    "id": "a017",
+    "id": "a014",
     "term": "S3 Object Lambda",
     "description": "S3取得時にデータ内容を動的に加工して返す機能"
   },
   {
-    "id": "a018",
+    "id": "a015",
     "term": "Amazon Redshift Query Editor v2",
     "description": "ブラウザからSQLを実行して分析できるツール"
   },
   {
-    "id": "a019",
+    "id": "a016",
     "term": "AWS Lake Formation",
     "description": "S3データレイクのアクセス制御・ガバナンスを管理するサービス"
   },
   {
-    "id": "a020",
+    "id": "a017",
     "term": "AWS Data Exchange",
     "description": "外部提供データをAWS上で取得・利用できるサービス"
   },
   {
-    "id": "a021",
-    "term": "AWS DataSync",
-    "description": "オンプレミスや他ストレージからS3へ高速にデータ転送するサービス"
-  },
-  {
-    "id": "a022",
+    "id": "a018",
     "term": "S3 Transfer Acceleration",
     "description": "エッジ経由でS3へのアップロードを高速化する機能"
   },
   {
-    "id": "a023",
+    "id": "a019",
     "term": "AWS Glueトリガー",
     "description": "データ処理ジョブの実行タイミングや依存関係を制御する機能"
   },
   {
-    "id": "a024",
-    "term": "Apache Spark",
-    "description": "大規模データを分散処理するエンジン"
-  },
-  {
-    "id": "a025",
+    "id": "a020",
     "term": "Amazon EMR",
     "description": "分散処理フレームワークをクラスタ構成で実行できるサービス（カスタマイズ性が高い）"
   },
   {
-    "id": "a026",
+    "id": "a021",
     "term": "AWS Glueワークロード",
     "description": "バッチ処理・リアルタイム処理・メタデータ管理を行うデータ処理基盤"
   },
   {
-    "id": "a027",
-    "term": "Apache Parquet",
-    "description": "列単位で保存し高速分析と高圧縮を実現するデータ形式"
-  },
-  {
-    "id": "a028",
+    "id": "a022",
     "term": "AWS Glue Python shellジョブ",
     "description": "軽量なスクリプト処理を実行するジョブ（分散処理不要な場合）"
   },
   {
-    "id": "a029",
+    "id": "a023",
     "term": "Apache Airflow",
     "description": "処理の順序や依存関係をコードで定義しスケジュール実行する仕組み"
   },
   {
-    "id": "a030",
+    "id": "a024",
     "term": "Amazon MSK Serverless",
     "description": "メッセージング基盤をサーバーレスで利用できるサービス"
   },
   {
-    "id": "a031",
+    "id": "a025",
     "term": "Amazon OpenSearch Service",
     "description": "ログやテキストをリアルタイム検索・分析するサービス"
   },
   {
-    "id": "a032",
-    "term": "Data Quality Definition Language",
-    "description": "データ品質チェックのルールを定義するための言語"
-  },
-  {
-    "id": "a033",
+    "id": "a026",
     "term": "AWS Glue DynamicFrame",
     "description": "スキーマが不完全なデータでも扱える柔軟なデータ構造"
   },
   {
-    "id": "a034",
+    "id": "a027",
     "term": "Amazon Athena Federated Query",
     "description": "S3以外のデータソースもSQLで直接クエリできる機能"
+  },
+  {
+    "id": "a028",
+    "term": "PartiQL",
+    "description": "SQLライクな構文でJSONなどの半構造データもクエリできる言語（DynamoDBやS3 Select系で使用）"
+  },
+  {
+    "id": "a029",
+    "term": "QuickSight SPICE",
+    "description": "データをインメモリに取り込み高速に可視化するエンジン（クエリ速度向上・元データ負荷軽減）"
+  },
+  {
+    "id": "a030",
+    "term": "Amazon Redshift Spectrum",
+    "description": "RedshiftからS3上のデータを直接クエリできる機能（ロード不要・外部テーブル）"
+  },
+  {
+    "id": "a031",
+    "term": "カラムナー形式",
+    "description": "列単位でデータを保存する形式（必要な列だけ読み込めるため分析が高速・圧縮効率が高い）"
+  },
+  {
+    "id": "a032",
+    "term": "Amazon Redshift Data API",
+    "description": "HTTP経由でRedshiftにSQL実行できるAPI（クライアントや接続管理不要）"
+  },
+  {
+    "id": "a033",
+    "term": "Apache Iceberg",
+    "description": "S3などのデータレイクでトランザクション管理やスキーマ進化を可能にするテーブルフォーマット"
+  },
+  {
+    "id": "a034",
+    "term": "AWS Gravitonインスタンス",
+    "description": "ARMベースCPUを使ったEC2で高コストパフォーマンス（同等性能で安価）"
+  },
+  {
+    "id": "a035",
+    "term": "Amazon Redshiftデータシェア",
+    "description": "クラスター間でデータをコピーせず共有できる機能（リアルタイム共有）"
+  },
+  {
+    "id": "a036",
+    "term": "ステージングテーブルRedshiftテーブル",
+    "description": "一時的にデータを格納し本番テーブルに反映するための中間テーブル（バッチ更新・差分処理）"
+  },
+  {
+    "id": "a037",
+    "term": "Apache Hudi",
+    "description": "データレイク上で更新・削除・履歴管理を可能にするテーブルフォーマット（増分処理に強い）"
+  },
+  {
+    "id": "a038",
+    "term": "AWS Glue PySpark",
+    "description": "Sparkベースで分散ETL処理を実行するGlueジョブ（大規模データ変換）"
+  },
+  {
+    "id": "a039",
+    "term": "EMR ステップのランタイムロール",
+    "description": "EMRステップ実行時に個別にIAMロールを付与する仕組み（ジョブ単位の権限制御）"
+  },
+  {
+    "id": "a040",
+    "term": "AWS Glue接続",
+    "description": "GlueからRDSやオンプレDBなど外部データソースへ接続するための設定（VPC・認証情報管理）"
+  },
+  {
+    "id": "a041",
+    "term": "Apache Spark",
+    "description": "メモリ内処理（インメモリ）で高速に分散データ処理を行うエンジンで、バッチ処理とストリーミング処理の両方に対応し、GlueやEMRの中核として使用される"
   }
 ]

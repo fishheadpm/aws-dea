@@ -1,207 +1,162 @@
 [
   {
-    "id": "a001",
-    "term": "Amazon Managed Service for Apache Flink",
-    "description": "ストリーミングデータをリアルタイム処理するフルマネージドサービス（Kinesisと組み合わせ）"
+    "id": "g001",
+    "term": "AI",
+    "description": "人間の知的活動をコンピュータで実現しようとする技術全般"
   },
   {
-    "id": "a002",
-    "term": "Aurora Zero-ETL統合",
-    "description": "データ変換処理なしでトランザクションDBから分析基盤へ自動同期する機能"
+    "id": "g002",
+    "term": "機械学習",
+    "description": "データからパターンを学習する技術"
   },
   {
-    "id": "a003",
-    "term": "Amazon DataZone",
-    "description": "組織内のデータカタログ・共有・ガバナンスを一元管理するサービス"
+    "id": "g003",
+    "term": "深層学習",
+    "description": "多層ニューラルネットワークを用いる機械学習"
   },
   {
-    "id": "a004",
-    "term": "AWS Glue Sparkシャッフルマネージャー",
-    "description": "分散処理時のデータ再配置（シャッフル）を効率化しパフォーマンスを改善する機能"
+    "id": "g004",
+    "term": "教師あり学習",
+    "description": "正解ラベル付きデータで学習する方法"
   },
   {
-    "id": "a005",
-    "term": "Amazon Redshiftプロビジョンドクラスター",
-    "description": "ノード構成で動く分析専用DWH（高速集計・BI用途）"
+    "id": "g005",
+    "term": "教師なし学習",
+    "description": "正解ラベルなしで特徴や構造を学ぶ方法"
   },
   {
-    "id": "a006",
-    "term": "AWS Glue DataBrew",
-    "description": "ノーコードでデータのクレンジング・変換を行うビジュアルツール"
+    "id": "g006",
+    "term": "強化学習",
+    "description": "報酬を最大化する行動を学習する方法"
   },
   {
-    "id": "a007",
-    "term": "AWS Lake Formation FindMatches変換",
-    "description": "重複・類似レコードを機械学習でマッチングする機能"
+    "id": "g007",
+    "term": "ニューラルネットワーク",
+    "description": "人間の脳の神経回路を模したモデル"
   },
   {
-    "id": "a008",
-    "term": "Amazon Redshift ML",
-    "description": "SQLで機械学習モデルを作成・推論できる機能"
+    "id": "g008",
+    "term": "重み",
+    "description": "入力の重要度を表す値"
   },
   {
-    "id": "a009",
-    "term": "Amazon Managed Workflows for Apache Airflow",
-    "description": "複数の処理の順序や依存関係を定義しスケジュール実行を自動化するマネージドサービス"
+    "id": "g009",
+    "term": "バイアス",
+    "description": "出力を調整するための値"
   },
   {
-    "id": "a010",
-    "term": "Kinesis Producer Library",
-    "description": "ストリーミング基盤への高効率データ送信を行うクライアントライブラリ（バッチ送信・再試行最適化）"
+    "id": "g010",
+    "term": "活性化関数",
+    "description": "ニューロンの出力を変換する関数"
   },
   {
-    "id": "a011",
-    "term": "Amazon S3 Storage Lens",
-    "description": "S3の使用状況・アクセス傾向を可視化し最適化する分析機能"
+    "id": "g011",
+    "term": "勾配降下法",
+    "description": "誤差が小さくなる方向へパラメータを更新する手法"
   },
   {
-    "id": "a012",
-    "term": "Apache Hive",
-    "description": "分散ストレージ上のデータをSQLで扱えるようにする仕組み"
+    "id": "g012",
+    "term": "損失関数",
+    "description": "予測と正解のズレを数値化したもの"
   },
   {
-    "id": "a013",
-    "term": "AWS Schema Conversion Tool",
-    "description": "異種データベース間でスキーマを変換するツール"
+    "id": "g013",
+    "term": "過学習",
+    "description": "訓練データに適応しすぎて汎化性能が落ちる状態"
   },
   {
-    "id": "a014",
-    "term": "S3 Object Lambda",
-    "description": "S3取得時にデータ内容を動的に加工して返す機能"
+    "id": "g014",
+    "term": "CNN",
+    "description": "画像処理に強いニューラルネットワーク"
   },
   {
-    "id": "a015",
-    "term": "Amazon Redshift Query Editor v2",
-    "description": "ブラウザからSQLを実行して分析できるツール"
+    "id": "g015",
+    "term": "畳み込み",
+    "description": "周辺情報から特徴を抽出する処理"
   },
   {
-    "id": "a016",
-    "term": "AWS Lake Formation",
-    "description": "S3データレイクのアクセス制御・ガバナンスを管理するサービス"
+    "id": "g016",
+    "term": "プーリング",
+    "description": "特徴マップを圧縮する処理"
   },
   {
-    "id": "a017",
-    "term": "AWS Data Exchange",
-    "description": "外部提供データをAWS上で取得・利用できるサービス"
+    "id": "g017",
+    "term": "RNN",
+    "description": "時系列データを扱うニューラルネットワーク"
   },
   {
-    "id": "a018",
-    "term": "S3 Transfer Acceleration",
-    "description": "エッジ経由でS3へのアップロードを高速化する機能"
+    "id": "g018",
+    "term": "LSTM",
+    "description": "RNNの長期依存問題を改善したモデル"
   },
   {
-    "id": "a019",
-    "term": "AWS Glueトリガー",
-    "description": "データ処理ジョブの実行タイミングや依存関係を制御する機能"
+    "id": "g019",
+    "term": "word2vec",
+    "description": "単語を意味的なベクトルに変換する手法"
   },
   {
-    "id": "a020",
-    "term": "Amazon EMR",
-    "description": "分散処理フレームワークをクラスタ構成で実行できるサービス（カスタマイズ性が高い）"
+    "id": "g020",
+    "term": "one-hotベクトル",
+    "description": "1か所だけ1で他が0のベクトル表現"
   },
   {
-    "id": "a021",
-    "term": "AWS Glueワークロード",
-    "description": "バッチ処理・リアルタイム処理・メタデータ管理を行うデータ処理基盤"
+    "id": "g021",
+    "term": "Transformer",
+    "description": "Attentionを利用した自然言語処理モデル"
   },
   {
-    "id": "a022",
-    "term": "AWS Glue Python shellジョブ",
-    "description": "軽量なスクリプト処理を実行するジョブ（分散処理不要な場合）"
+    "id": "g022",
+    "term": "Attention",
+    "description": "入力の重要部分に注目する仕組み"
   },
   {
-    "id": "a023",
-    "term": "Apache Airflow",
-    "description": "処理の順序や依存関係をコードで定義しスケジュール実行する仕組み"
+    "id": "g023",
+    "term": "BERT",
+    "description": "双方向に文脈を理解する言語モデル"
   },
   {
-    "id": "a024",
-    "term": "Amazon MSK Serverless",
-    "description": "メッセージング基盤をサーバーレスで利用できるサービス"
+    "id": "g024",
+    "term": "GPT",
+    "description": "次の単語予測を繰り返して文章生成するモデル"
   },
   {
-    "id": "a025",
-    "term": "Amazon OpenSearch Service",
-    "description": "ログやテキストをリアルタイム検索・分析するサービス"
+    "id": "g025",
+    "term": "GAN",
+    "description": "生成器と識別器を競わせて学習する生成モデル"
   },
   {
-    "id": "a026",
-    "term": "AWS Glue DynamicFrame",
-    "description": "スキーマが不完全なデータでも扱える柔軟なデータ構造"
+    "id": "g026",
+    "term": "diffusion model",
+    "description": "ノイズ除去を繰り返して画像生成するモデル"
   },
   {
-    "id": "a027",
-    "term": "Amazon Athena Federated Query",
-    "description": "S3以外のデータソースもSQLで直接クエリできる機能"
+    "id": "g027",
+    "term": "VAE",
+    "description": "潜在空間を利用する生成モデル"
   },
   {
-    "id": "a028",
-    "term": "PartiQL",
-    "description": "SQLライクな構文でJSONなどの半構造データもクエリできる言語（DynamoDBやS3 Select系で使用）"
+    "id": "g028",
+    "term": "embedding",
+    "description": "データを意味を保ったベクトルへ変換すること"
   },
   {
-    "id": "a029",
-    "term": "QuickSight SPICE",
-    "description": "データをインメモリに取り込み高速に可視化するエンジン（クエリ速度向上・元データ負荷軽減）"
+    "id": "g029",
+    "term": "次元削減",
+    "description": "情報を保ちながら特徴量数を減らすこと"
   },
   {
-    "id": "a030",
-    "term": "Amazon Redshift Spectrum",
-    "description": "RedshiftからS3上のデータを直接クエリできる機能（ロード不要・外部テーブル）"
+    "id": "g030",
+    "term": "PCA",
+    "description": "分散が大きい方向を抽出する次元削減手法"
   },
   {
-    "id": "a031",
-    "term": "カラムナー形式",
-    "description": "列単位でデータを保存する形式（必要な列だけ読み込めるため分析が高速・圧縮効率が高い）"
+    "id": "g031",
+    "term": "正則化",
+    "description": "過学習を抑えるための制約"
   },
   {
-    "id": "a032",
-    "term": "Amazon Redshift Data API",
-    "description": "HTTP経由でRedshiftにSQL実行できるAPI（クライアントや接続管理不要）"
-  },
-  {
-    "id": "a033",
-    "term": "Apache Iceberg",
-    "description": "S3などのデータレイクでトランザクション管理やスキーマ進化を可能にするテーブルフォーマット"
-  },
-  {
-    "id": "a034",
-    "term": "AWS Gravitonインスタンス",
-    "description": "ARMベースCPUを使ったEC2で高コストパフォーマンス（同等性能で安価）"
-  },
-  {
-    "id": "a035",
-    "term": "Amazon Redshiftデータシェア",
-    "description": "クラスター間でデータをコピーせず共有できる機能（リアルタイム共有）"
-  },
-  {
-    "id": "a036",
-    "term": "ステージングテーブルRedshiftテーブル",
-    "description": "一時的にデータを格納し本番テーブルに反映するための中間テーブル（バッチ更新・差分処理）"
-  },
-  {
-    "id": "a037",
-    "term": "Apache Hudi",
-    "description": "データレイク上で更新・削除・履歴管理を可能にするテーブルフォーマット（増分処理に強い）"
-  },
-  {
-    "id": "a038",
-    "term": "AWS Glue PySpark",
-    "description": "Sparkベースで分散ETL処理を実行するGlueジョブ（大規模データ変換）"
-  },
-  {
-    "id": "a039",
-    "term": "EMR ステップのランタイムロール",
-    "description": "EMRステップ実行時に個別にIAMロールを付与する仕組み（ジョブ単位の権限制御）"
-  },
-  {
-    "id": "a040",
-    "term": "AWS Glue接続",
-    "description": "GlueからRDSやオンプレDBなど外部データソースへ接続するための設定（VPC・認証情報管理）"
-  },
-  {
-    "id": "a041",
-    "term": "Apache Spark",
-    "description": "メモリ内処理（インメモリ）で高速に分散データ処理を行うエンジンで、バッチ処理とストリーミング処理の両方に対応し、GlueやEMRの中核として使用される"
+    "id": "g032",
+    "term": "ドロップアウト",
+    "description": "一部ニューロンを無効化して過学習を防ぐ手法"
   }
 ]

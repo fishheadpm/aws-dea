@@ -3,35 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AWS用語アプリ</title>
+  <title>G検定 用語学習アプリ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <header class="card">
-      <h1>AWS用語アプリ</h1>
+      <h1>G検定 用語学習アプリ</h1>
       <p class="sub">解説を見て用語を思い出す学習アプリ</p>
     </header>
 
     <main>
       <section id="titleScreen" class="card">
         <h2>タイトル</h2>
+
+        <div class="series-select-area">
+          <label for="seriesSelect" class="series-label">学習する回を選択</label>
+          <select id="seriesSelect"></select>
+          <p id="seriesInfo" class="series-info"></p>
+        </div>
+
         <div class="button-group vertical">
-          <button id="startFromBeginningButton">最初から</button>
-          <button id="continueButton">続きから</button>
-          <button id="historyButton">間違えた履歴</button>
-          <button id="resetAllButton" class="danger">テスト履歴をリセットする</button>
+          <button id="startFromBeginningButton">選択した回を最初から</button>
+          <button id="continueButton">選択した回を続きから</button>
+          <button id="historyButton">選択した回の間違えた履歴</button>
+          <button id="resetCurrentButton" class="danger">選択した回の履歴をリセットする</button>
+          <button id="resetAllButton" class="danger dark">全履歴をリセットする</button>
         </div>
       </section>
 
       <section id="quizScreen" class="card hidden">
         <div class="quiz-top">
+          <p id="currentSeriesLabel" class="current-series-label"></p>
           <p id="progressLabel" class="progress-label"></p>
         </div>
 
         <div class="question-area">
           <div>
-            <div class="question-label">この解説に対応するAWS用語は？</div>
+            <div class="question-label">この解説に対応するG検定用語は？</div>
             <div id="questionText" class="question-text"></div>
           </div>
         </div>
@@ -57,7 +66,7 @@
 
       <section id="completeScreen" class="card hidden">
         <h2>全部正解しました</h2>
-        <p>今回の出題をすべて終えました。</p>
+        <p id="completeMessage">今回の出題をすべて終えました。</p>
         <div class="button-group vertical">
           <button id="backToTitleFromCompleteButton">タイトルに戻る</button>
         </div>
@@ -65,6 +74,7 @@
 
       <section id="historyScreen" class="card hidden">
         <h2>間違えた履歴</h2>
+        <p id="historySeriesLabel" class="history-series-label"></p>
         <div id="historyList" class="history-list"></div>
 
         <div class="button-group vertical">

@@ -194,3 +194,38 @@ button.danger {
     padding: 13px 14px;
   }
 }
+
+.series-select-area {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.series-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+select {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  background: #fff;
+}
+
+.series-info,
+.current-series-label,
+.history-series-label {
+  color: #555;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+button.dark {
+  background: #7f1d1d;
+}
